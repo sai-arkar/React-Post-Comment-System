@@ -1,0 +1,22 @@
+{
+  "name": "postsandcomment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client & npm start",
+    "server": "json-server --watch server/db.json --port 4000 --routes server/routes.json",
+    "dev": "concurrently \"npm run server \" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "json-server": "^0.17.0"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}

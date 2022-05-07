@@ -1,0 +1,45 @@
+/* With # 
+#054297,
+#e9023c,
+#ffffff,
+#c2c8c8,
+#002559,
+#0455c6
+*/
+.container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+nav {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navHeader {
+  color: #054297;
+  font-weight: bolder;
+  text-decoration: none;
+}
+ul.navMenu {
+  list-style-type: none;
+  display: flex;
+}
+.navMenu a {
+  padding: 0 20px;
+  color: #0455c6;
+  text-decoration: none;
+}
+.navMenu a[class='active'] {
+  color: #002559;
+  font-weight: 700;
+}
+.navMenu button {
+  font-size: 1em;
+  font-weight: 600;
+  background: none;
+  border: none;
+  color: #e9023c;
+  padding: 0 20px;
+  cursor: pointer;
+}
